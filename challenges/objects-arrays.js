@@ -98,6 +98,8 @@ console.log(contactInfo);
 new array called unisWithUni that contains them all. This will be an array of objects. Log the result. 
 */
 const unisWithUni = [];
+
+
 console.log(unisWithUni);
 
 
