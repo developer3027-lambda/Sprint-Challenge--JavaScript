@@ -100,6 +100,12 @@ new array called unisWithUni that contains them all. This will be an array of ob
 const unisWithUni = [];
 
 
+for (let i = 0; i < graduates.length; i++){
+  unisWithUni.push(graduates[i].university);
+  let substring = 'Uni';
+  unisWithUni.includes(substring);
+}
+
 console.log(unisWithUni);
 
 
