@@ -30,13 +30,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+'.forEach' - runs through the array. Very versatile. Will look at every item in array.
+'.map' - will not mess with original array. Will create it's own array.
+
 2. What is the difference between a function and a method?
+
+Functions are the work horse of JS and are everywhere. A Method is a function on an function.
 
 3. What is closure?
 
+Closure is a weird way to refer to the concept of inheritance in JS. Methods or nested functions can inherit from their base functions.
+
 4. Describe the four rules of the 'this' keyword.
 
+This will refer to whatever it is inside of. There is implicit, explicit, strict, and new. Implicit is 
+default.
+
 5. Why do we need super() in an extended class?
+
+When writing nested functions, you have a base or parent with children nested inside, so they inherit from the base up. When writing prototypes you will reference the parent with parent.call. With classes, the super() replaces the parent.call
 
 ## Project Set up
 
