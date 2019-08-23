@@ -101,10 +101,14 @@ const unisWithUni = [];
 
 
 for (let i = 0; i < graduates.length; i++){
-  unisWithUni.push(graduates[i].university);
-  let substring = 'Uni';
-  unisWithUni.includes(substring);
+  let piece = 'Uni';
+  universities.includes(piece)
+    unisWithUni.push(graduates[i].university);
 }
+  // if (university.includes(piece)){
+  //   unisWithUni.push(graduates[i].university);
+  // }
+// }
 
 console.log(unisWithUni);
 
